@@ -1,4 +1,4 @@
-import { Inter, Dangrek } from 'next/font/google';
+import { Inter, Dangrek, Lusitana } from 'next/font/google';
  
 export const inter = Inter({ subsets: ['latin'] });
 export const dang = Dangrek({
@@ -6,3 +6,7 @@ export const dang = Dangrek({
   display: 'swap', 
   weight:'400'
 });
+export const lusitana = Lusitana({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+})
